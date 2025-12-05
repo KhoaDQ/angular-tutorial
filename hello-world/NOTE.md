@@ -3,8 +3,15 @@
 - Each module is in turn made up of components and services
 
 2. Command line
-- To create a component: 
-    ng g c components/header
+- To create a component: ng g c components/header
+- To create a component: ng g service services/todos
+- To create a component: ng g directive directives/highlight-completed-todo
 
 3. Syntax
 - Should use signal to define variables instead of traditional way
+
+4. Directives
+- Types of Angular directives:
+    components
+    attribute directives
+    structural directives
